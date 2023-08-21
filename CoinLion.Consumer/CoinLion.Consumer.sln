@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{017BED53-E312-4864-9C79-4A59DB3B7FE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{56D9B4E0-08A4-4D3A-9328-E42235B2EDC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{67AE70DB-1464-4A8A-9E75-B6472971037E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinLion.Consumer.Application", "Core\CoinLion.Consumer.Application\CoinLion.Consumer.Application.csproj", "{5BD5B5C5-EDF2-4ADB-98EE-6599CE675DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinLion.Consumer.Domain", "Core\CoinLion.Consumer.Domain\CoinLion.Consumer.Domain.csproj", "{344CAC19-63A1-4E0E-9CA1-3D3DBB230055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinLion.Consumer.ConsoleUI", "Presentation\CoinLion.Consumer.ConsoleUI\CoinLion.Consumer.ConsoleUI.csproj", "{2C853209-9036-4AA8-889C-D4FC159BCA42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinLion.Consumer.MS01", "Infrastructure\CoinLion.Consumer.MS01\CoinLion.Consumer.MS01.csproj", "{867169E7-AF0C-4043-89D3-F0B2712A1F5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD5B5C5-EDF2-4ADB-98EE-6599CE675DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD5B5C5-EDF2-4ADB-98EE-6599CE675DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD5B5C5-EDF2-4ADB-98EE-6599CE675DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD5B5C5-EDF2-4ADB-98EE-6599CE675DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344CAC19-63A1-4E0E-9CA1-3D3DBB230055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344CAC19-63A1-4E0E-9CA1-3D3DBB230055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344CAC19-63A1-4E0E-9CA1-3D3DBB230055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344CAC19-63A1-4E0E-9CA1-3D3DBB230055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C853209-9036-4AA8-889C-D4FC159BCA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C853209-9036-4AA8-889C-D4FC159BCA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C853209-9036-4AA8-889C-D4FC159BCA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C853209-9036-4AA8-889C-D4FC159BCA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867169E7-AF0C-4043-89D3-F0B2712A1F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867169E7-AF0C-4043-89D3-F0B2712A1F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867169E7-AF0C-4043-89D3-F0B2712A1F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867169E7-AF0C-4043-89D3-F0B2712A1F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BD5B5C5-EDF2-4ADB-98EE-6599CE675DE2} = {017BED53-E312-4864-9C79-4A59DB3B7FE4}
+		{344CAC19-63A1-4E0E-9CA1-3D3DBB230055} = {017BED53-E312-4864-9C79-4A59DB3B7FE4}
+		{2C853209-9036-4AA8-889C-D4FC159BCA42} = {67AE70DB-1464-4A8A-9E75-B6472971037E}
+		{867169E7-AF0C-4043-89D3-F0B2712A1F5A} = {56D9B4E0-08A4-4D3A-9328-E42235B2EDC1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEDEF542-F13D-444C-A528-B04B98350B89}
+	EndGlobalSection
+EndGlobal
